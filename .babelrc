@@ -1,4 +1,5 @@
 {
+  "plugins": ["react-refresh/babel"],
   "presets": [
     [
       "@babel/preset-env",

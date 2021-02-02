@@ -6,8 +6,11 @@
   "scripts": {
     "start": "webpack serve --mode development --hot --hot-only"
   },
-  "keywords": ["webpack", "hot-reload"],
-  "author":     {
+  "keywords": [
+    "webpack",
+    "hot-reload"
+  ],
+  "author": {
     "name": "Riderman de Sousa Barbosa",
     "email": "ridermansb@gmail.com",
     "url": "https://about.me/ridermansb"
@@ -18,8 +21,10 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
     "babel-loader": "^8.2.2",
     "html-webpack-plugin": "^5.0.0-beta.6",
+    "react-refresh": "^0.9.0",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0",
     "webpack-dev-server": "^4.0.0-beta.0"

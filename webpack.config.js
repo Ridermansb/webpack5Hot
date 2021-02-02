@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const webpack = require('webpack');
 
 module.exports = {
@@ -12,7 +13,9 @@ module.exports = {
         new webpack.EnvironmentPlugin({
             NODE_ENV: 'development',
         }),
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
+        new ReactRefreshWebpackPlugin(),
     ],
     module: {
         rules: [
