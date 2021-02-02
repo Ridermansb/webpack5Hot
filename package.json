@@ -1,0 +1,31 @@
+{
+  "name": "webpack5Hot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development --hot --hot-only"
+  },
+  "keywords": ["webpack", "hot-reload"],
+  "author":     {
+    "name": "Riderman de Sousa Barbosa",
+    "email": "ridermansb@gmail.com",
+    "url": "https://about.me/ridermansb"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^4.0.0-beta.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
