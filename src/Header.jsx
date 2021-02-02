@@ -5,7 +5,7 @@ const Header = () => (
         <nav>
             <li>Home</li>
             <li>Login</li>
-            <li>Logout</li>
+            <li>Logout--</li>
         </nav>
     </header>
 )

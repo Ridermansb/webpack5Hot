@@ -6,8 +6,11 @@
   "scripts": {
     "start": "webpack serve --mode development --hot --hot-only"
   },
-  "keywords": ["webpack", "hot-reload"],
-  "author":     {
+  "keywords": [
+    "webpack",
+    "hot-reload"
+  ],
+  "author": {
     "name": "Riderman de Sousa Barbosa",
     "email": "ridermansb@gmail.com",
     "url": "https://about.me/ridermansb"
@@ -26,6 +29,7 @@
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0"
   }
 }

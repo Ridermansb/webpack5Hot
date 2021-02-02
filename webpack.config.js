@@ -5,6 +5,7 @@ module.exports = {
     mode: 'development',
     devtool: 'eval-cheap-module-source-map',
     target: 'web',
+    entry: ['react-hot-loader/patch', './src'],
     resolve: {
         extensions: ['.js', '.jsx']
     },
